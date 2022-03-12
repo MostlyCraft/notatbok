@@ -1,0 +1,21 @@
+th {
+  width: 250px;
+  background-color: rgb(117, 117, 117);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(0, 0, 0);
+}
+
+#inputs {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 150px;
+}
+
+p{
+  font-size: 24px;
+}
